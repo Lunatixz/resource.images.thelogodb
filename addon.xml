@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="resource.images.thelogodb" name="Channel Logos" version="0.0.1" provider-name="zag2me,marduk">
+	<extension point="kodi.resource.images" compile="false" type="channellogos" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Channel Logos Icons</summary>
+		<description lang="en">Channel Logo Images (need Skin Support)</description>
+		<platform>all</platform>
+		<source>https://github.com/zag2me/TheLogoDB</source>
+	</extension>
+</addon>
